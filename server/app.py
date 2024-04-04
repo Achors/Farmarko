@@ -11,8 +11,8 @@ db = SQLAlchemy(app)
 # from routes.products import products_bp
 
 # Register blueprints
-app.register_blueprint()
-app.register_blueprint()
+# app.register_blueprint()
+# app.register_blueprint()
 
 if __name__ == '__main__':
     app.run(debug=True)
